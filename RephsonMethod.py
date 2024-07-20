@@ -52,8 +52,16 @@ initial_guess = float(input("Enter the initial guess: "))
 method_chk = RephsonMethod(equation, initial_guess)
 try:
     root = method_chk.find_root()
-    print(f"The root is: {root}")
+    with open("RephsonMethod.txt",'a+') as info:
+        info.write(f"The root is: {round(root,6)}")
+        print("\n")
+        info.write("\t \n")
+        info.seek(0)#diplay the value in file from 0 index of (Fln)
+        print(info.readline())#diplay the value in file from 0 index of (Fln) in terminal :)
+    
+
 except ValueError as e:
     print(e)
+    
 
   
