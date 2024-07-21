@@ -43,6 +43,9 @@ class RephsonMethod:
         
         raise ValueError("Root not found within the maximum number of iterations")
 
+print("starting...")
+print("Newton-Raphson method")
+print("\n")
 # Take user input for the equation and initial guess
 equation = input("Enter the equation (in terms of x): ")
 print("\n")
@@ -52,16 +55,21 @@ initial_guess = float(input("Enter the initial guess: "))
 method_chk = RephsonMethod(equation, initial_guess)
 try:
     root = method_chk.find_root()
-    with open("RephsonMethod.txt",'a+') as info:
-        info.write(f"The root is: {round(root,6)}")
+    with open("RephsonMethod.txt",'a') as info:
+        info.write(f"The root is for Equation : [{equation}] is : {round(root,6)}")
         print("\n")
-        info.write("\t \n")
-        info.seek(0)#diplay the value in file from 0 index of (Fln)
-        print(info.readline())#diplay the value in file from 0 index of (Fln) in terminal :)
+        info.write("\n")
+
+        # info.seek(0)#diplay the value in file from 0 index of (Fln)
+        # print(info.readline())#diplay the value in file from 0 index of (Fln) in terminal :)
+    
+    # Reopen the file to read only the last line
+    with open("RephsonMethod.txt", 'r') as info:
+        lines = info.readlines()
+        print(lines[-1])  # Print only the last line  
+
     
 
 except ValueError as e:
     print(e)
     
-
-  
