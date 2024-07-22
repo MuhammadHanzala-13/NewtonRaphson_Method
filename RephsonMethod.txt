@@ -1,0 +1,17 @@
+The root is for Equation : [cos(x) - cos(x) + tan(2*x) + 2] is : -5.265963
+The root is for Equation : [cos(x**3) - cos(x) + tan(2*x) + 2] is : 2.558723
+The root is for Equation : [cos(x**3) - cos(x) + tan(2*x) + 2] is : 1.021026
+The root is for Equation : [cos(x**3) - cos(x) + tan(2*x) + 2] is : -0.566815
+The root is for Equation : [2*cos(x)-x] is : 1.029867
+The root is for Equation : [2*cos(x)-x] is : 1.029867
+The root is for Equation : [2*cos(x) -x] is : 1.029867
+The root is for Equation : [2*cos(x) -x] is : 1.029867
+The root is for Equation : [cos(x**3) - cos(x) + tan(2*x) + 2] is : 2.558723
+The root is for Equation : [cos(x**3) - cos(x) + tan(2*x) + 2] is : 2.558723
+The root is for Equation : [cos(x**3) - cos(x) + tan(2*x) + 2] is : 2.558723
+The root is for Equation : [exp(x) -3*x] is : 1.512135
+The root is for Equation : [exp(x) -3*x] is : 0.619061
+The root is for Equation : [exp(x) -3*x] is : 0.619061
+The root is for Equation : [exp(x) -3*x] is : 0.619061
+The root is for Equation : [cos(x**3) - cos(x) + tan(2*x) + 2] is : 2.558723
+The root is for Equation : [log(3*x) -4*x +2] is : 0.677209
