@@ -46,7 +46,8 @@ class RephsonMethod:
         
         raise ValueError("Root not found within the maximum number of iterations")
 #                   using syntax   
-'''  for trignomertic function [sin(3**2),cos()] for logarithrmic function [log(x); eq = log10(x)-1 => log(x,10); eq =ln(x)-2ln(x-1) => log(x) - 2*log(x - 1) ] '''
+'''  for trignomertic function [sin(3**2),cos()] for logarithrmic function [log(x); eq = log10(x)-1 => log(x,10); eq =ln(x)-2ln(x-1) => log(x) - 2*log(x - 1) ] 
+            tan-1(x)-4π=0 => atan(x) - pi/4" cosec => csc(x)'''
 def plot_function_and_root(equation, root, x_range=(-10, 10)):
         x_vals = np.linspace(x_range[0], x_range[1], 400)
         y_vals = sp.lambdify(sp.symbols('x'), sp.sympify(equation), modules=['numpy', 'sympy'])(x_vals)
