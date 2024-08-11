@@ -20,3 +20,17 @@ The root is for Equation : [ln(x) -2*ln(x-1)] is : 2.618034
 The root is for Equation : [cot(2*x)] is : 2.356194
 The root is for Equation : [atan(x) - pi/4] is : 1.0
 The root is for Equation : [atan(x**2) - pi/4] is : -1.0
+The root is for Equation : [exp(x) -3] is : 1.098612
+The root is for Equation : [x**2 -3] is : 1.732051
+The root is for Equation : [exp(-x) * (3.2 * sin(x) - 0.5 * cos(x))] is : 9.579462
+The root is for Equation : [exp(-x) * (3.2 * sin(x) - 0.5 * cos(x))] is : 9.579462
+The root is for Equation : [exp(-x) * (3.2 * sin(x) - 0.5 * cos(x))] is : 3.296589
+The root is for Equation : [exp(-x) * (3.2 * sin(x) - 0.5 * cos(x))] is : 3.296589
+The root is for Equation : [exp(-x) * (3.2 * sin(x) - 0.5 * cos(x))] is : 3.296589the initial guess is : [2.0]
+The root is for Equation : [exp(-x) * (3.2 * sin(x) - 0.5 * cos(x))] is : 3.296589the initial guess is : [3.0]
+The root is for Equation : [exp(-x) * (3.2 * sin(x) - 0.5 * cos(x))] is : 3.296589The root is for Equation : [exp(-x) * (3.2 * sin(x) - 0.5 * cos(x))] is : 3.296589
+The initial guess is : [2.0]
+The root is for Equation : [exp(-x) * (3.2 * sin(x) - 0.5 * cos(x))] is : 3.296589
+The initial guess is : [2.0]
+The root is for Equation : [exp(-x) * (3.2 * sin(x) - 0.5 * cos(x))] is : 3.296589 	 with initial guess is : [2.0]
+The root is for Equation : [exp(-x) * (3.2 * sin(x) - 0.5 * cos(x))] is : 3.296589 . With initial guess is : [2.0]
